@@ -72,7 +72,7 @@ if uploaded_file is not None:
 
     # Display Results
     st.success(f"✅ **Prediction: {predicted_class}**")
-    st.write(f"🧪 **Confidence Score:** `{confidence:.4f}`")
+   # st.write(f"🧪 **Confidence Score:** `{confidence:.4f}`")
 
     # Show extra message based on prediction
     if prediction[0][0] > 0.5:
