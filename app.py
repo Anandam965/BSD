@@ -50,7 +50,7 @@ uploaded_file = st.file_uploader("📤 Upload an Image", type=["jpg", "png", "jp
 if uploaded_file is not None:
     # Display image
     image = Image.open(uploaded_file)
-    st.image(image, caption="🖼 Uploaded Image", width=300)
+    st.image(image, caption="🖼 Uploaded Image", width=300, height=300)
 
 
     # Preprocess image
