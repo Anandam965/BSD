@@ -35,7 +35,7 @@ st.markdown("""
 
 
 # Sidebar
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/commons/7/7a/Brain_stroke_CT_scan.png", width=200)
+
 st.sidebar.title("🩺 Medical AI")
 st.sidebar.write("This tool uses **Deep Learning** to detect brain stroke from MRI and CT scan images.")
 scan_type = st.sidebar.radio("📷 Select Scan Type:", ["MRI", "CT"], index=0)
